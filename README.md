@@ -4,7 +4,7 @@
     </a>
     <h3 align="center">NoteIt</h3>
     <p align="center">
-        Looking for eas way to save Notes?
+        Looking for an easy way to save Notes?
         <br />
         <br />
         <a href="#try">NoteMe</a>
