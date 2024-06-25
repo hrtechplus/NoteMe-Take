@@ -7,7 +7,9 @@
 </div>
 
 ## About The Project
-
+ <a>
+        <img src="/NoteMe.jpg" alt="Logo" width="100" height="100">
+    </a>
 
 Technologies and libraries used in this project:
 <ul>
