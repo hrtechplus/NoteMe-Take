@@ -2,19 +2,12 @@
     <a>
         <img src="/noteicon.png" alt="Logo" width="100" height="100">
     </a>
-    <h3 align="center">NoteIt</h3>
+    <h1 align="center">NoteIt</h1>
 
 </div>
 
 ## About The Project
 
-<table align="center">
-  <tr>
-    <td><img src="assets/preview.gif" height="500px" /></td>
-    <td><img src="assets/2.png" height="500px" /></td>
-    <td><img src="assets/3.png" height="500px" /></td>
-  </tr>
-</table>
 
 Technologies and libraries used in this project:
 <ul>
