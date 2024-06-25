@@ -42,4 +42,4 @@ LinkedIn - [linkedin.com/in/hasinduonline](https://linkedin.com/in/hasinduonline
 Instagram - [Instagram.com/@hasinduonline](https://www.instagram.com/hasinduonline/)<br />
 Portfolio - [www.hasindu.me](https://www.hasindu.me/)<br />
 
-See my other projects: [https://github.com/erdemklync](https://github.com/erdemklync)
+
