@@ -1,13 +1,13 @@
 <div align="center">
     <a>
-        <img src="assets/logo.png" alt="Logo" width="100" height="100">
+        <img src="assets/noteicon.png" alt="Logo" width="100" height="100">
     </a>
     <h3 align="center">NoteIt</h3>
     <p align="center">
-        Simple way to take notes.
+        Looking for eas way to save Notes?
         <br />
         <br />
-        <a href="#try">Try NoteIt</a>
+        <a href="#try">NoteMe</a>
         ·
         <a href="https://github.com/erdemklync/NoteIt/issues">Report Bug</a>
         ·
