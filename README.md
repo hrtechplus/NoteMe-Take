@@ -2,7 +2,7 @@
     <a>
         <img src="/noteicon.png" alt="Logo" width="100" height="100">
     </a>
-    <h1 align="center">NoteIt</h1>
+    <h1 align="center">NoteMe</h1>
 
 </div>
 
