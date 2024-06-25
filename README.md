@@ -8,7 +8,7 @@
 
 ## About The Project
  <a>
-        <img src="/NoteMe.jpg" alt="Logo" width="100" height="100">
+        <img src="/NoteMe.jpg" alt="Logo" >
     </a>
 
 Technologies and libraries used in this project:
