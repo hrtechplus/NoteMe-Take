@@ -1,6 +1,6 @@
 <div align="center">
     <a>
-        <img src="assets/noteicon.png" alt="Logo" width="100" height="100">
+        <img src="/noteicon.png" alt="Logo" width="100" height="100">
     </a>
     <h3 align="center">NoteIt</h3>
     <p align="center">
@@ -38,8 +38,8 @@ Technologies and libraries used in this project:
 
 ## Contact
 
-LinkedIn - [linkedin.com/in/erdemkalyoncu](https://linkedin.com/in/erdemkalyoncu)<br />
-Medium - [medium.com/@erdemklync](https://medium.com/@erdemklync)<br />
-YouTube - [youtube.com/c/ErdemKalyoncu](https://www.youtube.com/c/ErdemKalyoncu)<br />
+LinkedIn - [linkedin.com/in/hasinduonline](https://linkedin.com/in/hasinduonline)<br />
+Instagram - [Instagram.com/@hasinduonline](https://www.instagram.com/hasinduonline/)<br />
+Portfolio - [www.hasindu.me](https://www.hasindu.me/)<br />
 
 See my other projects: [https://github.com/erdemklync](https://github.com/erdemklync)
