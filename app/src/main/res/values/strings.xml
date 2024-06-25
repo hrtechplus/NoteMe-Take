@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NoteIt</string>
+    <string name="app_title">noteMe</string>
+    <string name="title_input_layout_hint">Title</string>
+    <string name="text_input_layout_hint">Note</string>
+
+    <string name="title_add">Add Note</string>
+    <string name="title_edit">Edit Note</string>
+    <string name="save">Saved</string>
+    <string name="deleteBtn">Delete</string>
+</resources>

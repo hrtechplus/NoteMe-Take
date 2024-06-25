@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/add_edit_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/title_add"
+        app:menu="@menu/menu_add_edit"
+        app:navigationIconTint="?attr/colorOnSurface"
+
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/title_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="8dp"
+        android:hint="@string/title_input_layout_hint"
+        app:expandedHintEnabled="false"
+
+        app:layout_constraintTop_toBottomOf="@id/add_edit_toolbar">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/title_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/text_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="8dp"
+        android:hint="@string/text_input_layout_hint"
+        app:expandedHintEnabled="false"
+
+        app:layout_constraintTop_toBottomOf="@id/title_input_layout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:maxLines="8"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/note_color_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+
+        app:layout_constraintTop_toBottomOf="@id/text_input_layout">
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/color_red"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:button="@drawable/bg_color_radio_button"
+            app:buttonTint="@color/redContainer"
+            />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/color_purple"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:button="@drawable/bg_color_radio_button"
+            app:buttonTint="@color/purpleContainer"
+            />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/color_blue"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:button="@drawable/bg_color_radio_button"
+            app:buttonTint="@color/blueContainer"
+            />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/color_green"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:button="@drawable/bg_color_radio_button"
+            app:buttonTint="@color/greenContainer"
+            />
+
+    </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/note_delete_button"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/deleteBtn"
+        android:textColor="?attr/colorError"
+        android:visibility="gone"
+        app:icon="@drawable/ic_delete"
+        app:iconTint="?attr/colorError"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="?attr/colorError" />
+
+    <TextView
+        android:id="@+id/devloperTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Developed By Hasindu Rangika"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
