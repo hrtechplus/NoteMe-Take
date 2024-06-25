@@ -3,16 +3,7 @@
         <img src="/noteicon.png" alt="Logo" width="100" height="100">
     </a>
     <h3 align="center">NoteIt</h3>
-    <p align="center">
-        Looking for an easy way to save Notes?
-        <br />
-        <br />
-        <a href="#try">NoteMe</a>
-        ·
-        <a href="https://github.com/erdemklync/NoteIt/issues">Report Bug</a>
-        ·
-        <a href="https://github.com/erdemklync/NoteIt/issues">Request Feature</a>
-    </p>
+
 </div>
 
 ## About The Project
